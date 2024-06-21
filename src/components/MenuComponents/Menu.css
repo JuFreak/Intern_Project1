@@ -1,0 +1,160 @@
+.menuSection{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0px 30px;
+    background: rgb(249, 249, 255);
+
+}
+ .header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.hamburger{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.searchBox{
+    position: relative;
+}
+.searchBox input{
+    padding: 8px 10px 8px 35px;
+    width: 200px;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+.searchIcon{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.taskBox{
+    display: flex;
+    flex-direction: column;
+}
+.taskBox li{
+     
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.taskBox h3{
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: .9rem;
+}
+.taskBox li:hover{
+    background: rgb(226, 226, 226);
+}
+.taskBox li p{
+    margin: 5px;
+    margin-left: 10px;
+}
+.taskBox li div{
+    position: absolute;
+    right: 20px;
+    background: white; 
+    font-size: .7rem;
+}
+
+.itemsBox{
+    display: flex;
+    flex-direction: column;
+}
+.itemsBox li{
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.itemsBox h3{
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: .9rem;
+}
+.itemsBox li:hover{
+    background: rgb(226, 226, 226);
+}
+.itemsBox li p{
+    margin: 5px;
+    margin: left 10px;
+}
+.itemsBox li div{
+    position: absolute;
+    right: 20px;
+    padding: 2px 3px;
+    font-size: .7rem;
+}
+
+.tags{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tags h3{
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+.tagsList{
+    display: flex;
+    align-items: center;
+}
+.tagsList div{
+    padding: 8px 15px;
+    margin-right: 6px;
+    font-size: .8rem;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.tagsList div:nth-child(1){
+    background: rgb(143, 199, 255);
+}
+.tagsList div:nth-child(2){
+    background: rgb(255, 177, 177);
+}
+.tagsList div:nth-child(3){
+    background: rgb(218, 218, 218);
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.bottom div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.bottom div p{
+    margin-left: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.redSquare{
+    color: rgb(255, 94, 25);
+}
+.blueSquare{
+    color: rgb(32, 193, 242);
+}
+.yellowSquare{
+    color: rgb(250, 223, 23);
+} 
